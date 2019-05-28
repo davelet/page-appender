@@ -10,8 +10,6 @@ public class DemoInfo {
     @GeneratedValue
     private long id;
 
-    private String title;
-
     private String content;
 
     public long getId() {
@@ -20,14 +18,6 @@ public class DemoInfo {
 
     public void setId(long id) {
         this.id = id;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
     }
 
     public String getContent() {

@@ -27,6 +27,6 @@
 
 ### VS Code ###
 .vscode/
-
+.h2/
 .mvn/
 mvnw*
